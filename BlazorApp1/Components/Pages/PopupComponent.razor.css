@@ -1,0 +1,86 @@
+.modal-title-img {
+    max-height: 50px; /* Adjust the height as needed */
+    width: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.custom-input {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for bigger size */
+    font-size: 16px; /* Larger font size */
+    box-sizing: border-box; /* Include padding in width */
+    outline: none; /* Remove default outline */
+    margin-bottom: 15px; /* Space between inputs */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+}
+
+.custom-input:focus {
+    border-color: #007BFF; /* Change border color on focus */
+}
+
+.custom-input::placeholder {
+    color: #999; /* Placeholder color */
+}
+
+.custom-button {
+    width: 100%; /* Make the button take the full width of the container */
+    padding: 10px 30px; /* Increase padding for left and right to make the button wider */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Optional: increase font size */
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Smooth transition for background and border color */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+
+.custom-button:hover {
+    background-color: #0056b3; /* Optional: Change background color on hover */
+    border-color: #0056b3; /* Optional: Change border color on hover */
+}
+
+.footer-links {
+    text-align: center;
+    width: 100%;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 10px;
+}

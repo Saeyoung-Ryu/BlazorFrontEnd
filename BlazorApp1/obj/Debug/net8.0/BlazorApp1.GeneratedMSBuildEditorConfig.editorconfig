@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp1
+build_property.RootNamespace = BlazorApp1
+build_property.ProjectDir = /Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Gb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nz1yiwl0um
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zjo6z1fhij
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-iomgrdh8s8
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/DashBoardPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9EYXNoQm9hcmRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-83u8jsqsgh
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9IZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4n17dd41gx
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/HomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zm88yst6zj
+
+[/Users/saeyoungryu/Project/whatIsMyLifeAbout/BlazorApp1/BlazorApp1/Components/Pages/PopupComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qb3B1cENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hxk44rrls8

@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MatBlazor" Version="2.10.0" />
+      <PackageReference Include="MessagePack" Version="2.5.168" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Components\Pages\HomePage.cs">
+        <DependentUpon>HomePage.razor</DependentUpon>
+      </Compile>
+      <Compile Update="Components\Pages\DashBoardPage.cs">
+        <DependentUpon>DashBoardPage.razor</DependentUpon>
+      </Compile>
+      <Compile Update="Components\Pages\Header.cs">
+        <DependentUpon>Header.razor</DependentUpon>
+      </Compile>
+      <Compile Update="Components\Pages\PopupComponent.cs">
+        <DependentUpon>PopupComponent.razor</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\MyUtil\MyUtil.csproj" />
+      <ProjectReference Include="..\..\Protocol\Protocol\Protocol.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\index.html" />
+    </ItemGroup>
+
+</Project>

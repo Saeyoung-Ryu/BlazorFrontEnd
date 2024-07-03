@@ -1,0 +1,36 @@
+<div class="modal @(Show ? "show" : "")" tabindex="-1" role="dialog" style="display:@(Show ? "block" : "none");" aria-hidden="@(Show ? "false" : "true")">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close-button" @onclick="Close">×</button>
+                <img src="matchHistoryImage.jpg" alt="Login" class="modal-title-img">
+            </div>
+            <div class="modal-body">
+                <div class="wrapper">
+                    <div class="home-container">
+                        <div class="login-container">
+                            <input type="text" class="custom-input" @bind="@Player.Email" placeholder="Enter your email">
+                            <input type="password" class="custom-input" @bind="@Player.Password" placeholder="Enter your password">
+                            <div class="remember-me">
+                                <input type="checkbox" id="rememberEmail" @bind="@RememberEmail">
+                                <label for="rememberEmail">Remember Email</label>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-primary custom-button" @onclick="LoginBtnAsync">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="footer-links">
+                    <a href="#" @onclick="FindPassword">Find Password</a>
+                    <a href="#" @onclick="SignIn">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>@if (Show)
+{
+    <div class="modal-backdrop show"></div>
+}
+

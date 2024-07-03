@@ -1,0 +1,82 @@
+﻿@page "/DashBoardPage/{dashBoardName}"
+@using BlazorApp1.Type
+@inject NavigationManager Navigation
+@inject Player Player
+@rendermode InteractiveServer
+
+<PageTitle>DashBoard</PageTitle>
+
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>@DashBoardName</title>
+  <link rel="stylesheet" href="styles.css" media="screen">
+  <link rel="stylesheet" href="Counter.razor.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="styles.js" defer=""></script>
+  <meta name="generator" content="Nicepage 6.12.10, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+
+
+
+  <script type="application/ld+json">{
+		"context": "http://schema.org",
+		"type": "Organization",
+		"name": "",
+		"logo": "/images/default-logo.png"
+}</script>
+  <meta name="theme-color" content="#478ac9">
+  <meta property="og:title" content="DashBoardPage">
+  <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  </head>
+
+<Header></Header>
+
+<section class="u-clearfix u-section-1" id="sec-6f79">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h2 class="u-align-center u-text u-text-1">@DashBoardName</h2>
+  </div>
+</section>
+<section class="u-align-left u-clearfix u-section-2" id="sec-a656">
+  <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+    <div class="u-expanded-width u-tab-links-align-justify u-tabs u-tabs-1">
+      <ul class="u-spacing-30 u-tab-list u-unstyled" role="tablist">
+        <li class="u-tab-item" role="presentation"><a class="active u-active-palette-2-base u-button-style u-tab-link u-tab-link-1" id="link-tab-081f" href="#tab-081f" role="tab" aria-controls="tab-081f" aria-selected="true">Home </a>
+        </li>
+        <li class="u-tab-item" role="presentation"><a class="u-active-palette-2-base u-button-style u-tab-link u-tab-link-2" id="link-tab-3a42" href="#tab-3a42" role="tab" aria-controls="tab-3a42" aria-selected="false">Rank</a>
+        </li>
+        <li class="u-tab-item u-tab-item-3" role="presentation"><a class="u-active-palette-2-base u-button-style u-tab-link u-tab-link-3" id="tab-d7e7" href="#link-tab-d7e7" role="tab" aria-controls="link-tab-d7e7" aria-selected="false">Divide Team</a>
+        </li>
+        <li class="u-tab-item u-tab-item-4" role="presentation"><a class="u-active-palette-2-base u-button-style u-tab-link u-tab-link-4" id="tab-6219" href="#link-tab-6219" role="tab" aria-controls="link-tab-6219" aria-selected="false">Match History</a>
+        </li></ul>
+      <div class="u-tab-content">
+        <div class="u-container-style u-tab-active u-tab-pane" id="tab-081f" role="tabpanel" aria-labelledby="link-tab-081f">
+          
+          <br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+          <br><br><br><br><br><br>
+          
+        </div>
+        <div class="u-container-style u-tab-pane" id="tab-3a42" role="tabpanel" aria-labelledby="link-tab-3a42">
+          <div class="u-container-layout u-container-layout-2"></div>
+        </div>
+        <div class="u-container-style u-tab-pane" id="link-tab-d7e7" role="tabpanel" aria-labelledby="tab-d7e7">
+          <div class="u-container-layout u-container-layout-3"></div>
+        </div>
+        <div class="u-container-style u-tab-pane" id="link-tab-6219" role="tabpanel" aria-labelledby="tab-6219">
+          <div class="u-container-layout u-container-layout-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<Footer></Footer>
